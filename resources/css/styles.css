@@ -1,0 +1,314 @@
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* clases para el juego */
+
+.block{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/block.png');
+}
+.block-s{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/blocks.png');
+}
+
+.block-amarillo{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/amarillo.png');
+}
+
+.block-rojo{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/rojo.png');
+}
+
+.block-azul{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/azul.png');
+}
+
+.block-morado{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/morado.png');
+}
+
+.block-naranja{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/naranja.png');
+}
+
+.block-verde{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    margin-bottom: -10px;
+    background-image: url('../images/verde.png');
+}
+
+
+.block-2{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/block.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-amarillo{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/amarillo.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-verde{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/verde.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-rojo{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/rojo.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-azul{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/azul.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-morado{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/morado.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.block-2-naranja{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    float: left;
+    background-image: url('../images/naranja.png');
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#juego{
+    width: 440px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.row{
+    position:relative;
+    margin-bottom:-10px;
+    padding-bottom:-10px;
+}
+
+.misfichas{
+    width: 450px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fichadoble{
+    width: 40px;
+    height: 80px;
+    position:relative;
+    float: left;
+    margin-left:25px;
+    margin-right:25px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.text-yellow{
+    color: #fdd835;
+}
+.text-blue{
+    color: #03a9f4;
+}
+.text-purple{
+    color: #673ab7;
+}
+.text-red{
+    color: #d32f2f;
+}
+.text-orange{
+    color: #f57c00;
+}
+.text-green{
+    color: #1b5e20;
+}
+
+.cuadrito-yellow{
+    background-color: #fdd835;
+}
+.cuadrito-blue{
+    background-color: #03a9f4;
+}
+.cuadrito-purple{
+    background-color: #673ab7;
+}
+.cuadrito-red{
+    background-color: #d32f2f;
+}
+.cuadrito-orange{
+    background-color: #f57c00;
+}
+.cuadrito-green{
+    background-color: #43a047;
+}
